@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/action.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main">
+          <div class="title">
+              <h2>Verifica CEP</h2>
+          </div>
+
+          <div class="form">
+              <label>CEP</label>
+              <input type="text" maxlength="9" id="i_cep">
+              <input type="submit" value="Buscar" onclick="pesquisacep()" id="btt">
+          </div>
+          <div class="content">
+               <label>Rua</label>
+               <div id="rua">-</div>
+
+               <label>Bairro</label>
+               <div id="bairro">-</div>
+
+               <label>Cidade</label>
+               <div id="cidade">-</div>
+
+               <label>Estado</label>
+               <div id="estado">-</div>
+          </div>
+
+          <div class="footer">
+              <p> &copy; Desenvolvido por Bruno R. B. da Silva</p>
+          </div>
+    </div>
+    
+</body>
+</html>
